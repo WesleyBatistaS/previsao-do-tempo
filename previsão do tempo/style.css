@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Outfit:wght@300 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./img/wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.caixa-maior {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 25px;
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 50px);
+    font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 20px;
+   
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.caixa-menor p {
+    margin-left: 20px;
+}
+
+.umidade {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
