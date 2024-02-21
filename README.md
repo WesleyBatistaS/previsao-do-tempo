@@ -6,4 +6,4 @@ Este projeto tem como objetivo pegar informções do tempo local e mostrar ao us
 * HTML
 * CSS
 * Javascript
-* Consumo de API - Whater API
+* Consumo de API - weather api
